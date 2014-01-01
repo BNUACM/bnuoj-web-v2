@@ -1,13 +1,13 @@
 <?php
 include_once("conn.php");
 
-    $aColumns = array( 'rownum', 'username', 'nickname', 'total_ac', 'total_submit' );
+    $aColumns = array( 'rownum', 'username', 'nickname', 'local_ac', 'total_ac', 'total_submit' );
     $sIndexColumn = "uid";
     $sTable = "(
         SELECT @rownum := @rownum +1 rownum, ranklist . * 
         FROM (
             SELECT @rownum :=0
-        )r, ranklist order by total_ac desc, total_submit
+        )r, ranklist
     ) AS t";
     
     //paging

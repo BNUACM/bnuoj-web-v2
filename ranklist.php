@@ -19,9 +19,10 @@
           <table class="display" id="rank">
             <thead>
               <tr>
-                <th width='11%'> Rank </th>
+                <th width='8%'> Rank </th>
                 <th width='18%'> Username </th>
-                <th width='51%'> Nickname </th>
+                <th width='40%'> Nickname </th>
+                <th width='14%'> Local AC </th>
                 <th width='10%'> AC </th>
                 <th width='10%'> All </th>
               </tr>
