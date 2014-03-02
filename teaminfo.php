@@ -93,8 +93,17 @@
   <tr><td>刘芳</td><td>2010级本</td><td>信科</td><td></td></tr>
   <tr><td>焦璐</td><td>2010级本</td><td>信科</td><td></td></tr>
   <tr><td>盛乔一</td><td>2010级本</td><td>信科</td><td></td></tr>
+  <tr><td>周奕洋</td><td>2010级本</td><td>信科</td><td></td></tr>
   <tr><td>董自鸣</td><td>2011级本</td><td>信科</td><td>2013年腾讯编程马拉松北京赛区冠军队成员。</td></tr>
   <tr><td>袁伟舜</td><td>2011级本</td><td>地遥</td><td></td></tr>
+  <tr><td>李安然</td><td>2011级本</td><td>信科</td><td></td></tr>
+  <tr><td>李奕</td><td>2011级本</td><td>信科</td><td></td></tr>
+  <tr><td>马凌霄</td><td>2011级本</td><td>信科</td><td></td></tr>
+  <tr><td>郑培凯</td><td>2012级本</td><td>信科</td><td></td></tr>
+  <tr><td>陈高翔</td><td>2012级本</td><td>信科</td><td></td></tr>
+  <tr><td>吴雷</td><td>2012级本</td><td>信科</td><td></td></tr>
+  <tr><td>何伟强</td><td>2012级本</td><td>信科</td><td></td></tr>
+  <tr><td>段兰君</td><td>2012级本</td><td>信科</td><td></td></tr>
                 </tbody>
               </table>
               <p style="align:right;text-align:right;padding:0;">
@@ -184,6 +193,17 @@ ACM-ICPC 是由 ACM （美国计算机协会）主办的面向大学生的国际
 <tr><td>2012</td><td>杭州赛区（浙江理工大学）</td><td>Sellamoe</td><td>黎明明 于馨培 袁伟舜</td><td>铜奖（队伍第59名）</td></tr>
 <tr><td>2012</td><td>成都赛区（成都东软学院）</td><td>Random</td><td>易超 龚治 李思源</td><td>银奖（队伍第21名）</td></tr>
 <tr><td>2012</td><td>成都赛区（成都东软学院）</td><td>Attiix</td><td>赵力 王骁 王梦非</td><td>铜奖（队伍第70名）</td></tr>
+<tr><td>2013</td><td>成都赛区（电子科技大学）</td><td>latte</td><td>李思源 赵力 张伯威</td><td>金奖（队伍第3名）</td></tr>
+<tr><td>2013</td><td>成都赛区（电子科技大学）</td><td>cappu</td><td>刘芳 盛乔一 周奕洋</td><td>铜奖（队伍第65名）</td></tr>
+<tr><td>2013</td><td>杭州赛区（浙江工业大学）</td><td>latte</td><td>李思源 赵力 张伯威</td><td>金奖*（队伍第2名）</td></tr>
+<tr><td>2013</td><td>杭州赛区（浙江工业大学）</td><td>idonotknow</td><td>王梦菲 郑培凯 陈高翔</td><td>铜奖（队伍第69名）</td></tr>
+<tr><td>2013</td><td>南京赛区（南京理工大学）</td><td>crazier</td><td>吴浪 陈辉 董自鸣</td><td>银奖（队伍第42名）</td></tr>
+<tr><td>2013</td><td>南京赛区（南京理工大学）</td><td>idonotknow</td><td>王梦菲 郑培凯 陈高翔</td><td>铜奖（队伍第68名）</td></tr>
+<tr><td>2013</td><td>长沙赛区（湖南大学）</td><td>latte</td><td>李思源 赵力 张伯威</td><td>银奖（队伍第25名）</td></tr>
+<tr><td>2013</td><td>长沙赛区（湖南大学）</td><td>cappu</td><td>刘芳 盛乔一 周奕洋</td><td>铜奖（队伍第94名）</td></tr>
+<tr><td>2013</td><td>长春赛区（吉林大学）</td><td>crazier</td><td>吴浪 陈辉 董自鸣</td><td>铜奖（队伍第70名）</td></tr>
+<tr><td>2013</td><td>长春赛区（吉林大学）</td><td>xiaohai</td><td>李安然 李奕 马凌霄</td><td>铜奖（队伍第102名）</td></tr>
+<tr><td>2013</td><td>长春赛区（吉林大学）</td><td>hwd</td><td>吴雷 何伟强 段兰君</td><td>优胜奖（队伍第128名）</td></tr>
                 </tbody>
               </table>
               <p style="align:right;text-align:right;padding:0;">
