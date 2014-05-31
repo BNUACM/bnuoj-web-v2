@@ -127,6 +127,7 @@
 ?>
             <div class="content-wrapper ui-corner-all">
 <?php
+        $desc=preg_replace('/<head[\s\S]*\/head>/', "", $desc);
         echo latex_content($desc)."\n";
 ?>
                 <div style="clear:both"></div>

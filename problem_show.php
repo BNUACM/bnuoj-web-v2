@@ -1,6 +1,6 @@
 <?php
   include_once('conn.php');
-  $pid = convert_str($_GET['pid']);
+  $pid = intval(convert_str($_GET['pid']));
   if ($pid=="") $pid="0";
   $querypage="select count(*) from problem where pid<'$pid' and hide=0";
   list($ppage)=mysql_fetch_array(mysql_query($querypage));
@@ -86,9 +86,8 @@
       if ($vname=="SCU")  echo "<a href='http://cstest.scu.edu.cn/soj/problem.action?id=$vid' target='_blank'>$vid</a>";
       if ($vname=="HUST")  echo "<a href='http://acm.hust.edu.cn/problem.php?id=$vid' target='_blank'>$vid</a>";
       if ($vname=="UVALive")  {
-          if (intval($vid)>5722) $svid=intval($vid)+10;
-          else $svid=$vid;
-          echo "<a href='http://livearchive.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=".(intval($svid)-1999)."' target='_blank'>$vid</a>";
+          list($url)=mysql_fetch_array(mysql_query("select url from vurl where voj='UVALive' and vid='$vid'"));
+          echo "<a href='$url' target='_blank'>$vid</a>";
       }
       if ($vname=="UVA")  {
           list($url)=mysql_fetch_array(mysql_query("select url from vurl where voj='UVA' and vid='$vid'"));
@@ -184,6 +183,7 @@
 ?>
             <div class="content-wrapper ui-corner-all">
 <?php
+      $desc=preg_replace('/<head[\s\S]*\/head>/', "", $desc);
       echo latex_content($desc)."\n";
 ?>
             </div>
