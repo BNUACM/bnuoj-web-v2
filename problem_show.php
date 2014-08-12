@@ -84,7 +84,8 @@
       if ($vname=="WHU")  echo "<a href='http://acm.whu.edu.cn/land/problem/detail?problem_id=$vid' target='_blank'>$vid</a>";
       if ($vname=="SYSU")  echo "<a href='http://soj.me/$vid' target='_blank'>$vid</a>";
       if ($vname=="SCU")  echo "<a href='http://cstest.scu.edu.cn/soj/problem.action?id=$vid' target='_blank'>$vid</a>";
-      if ($vname=="HUST")  echo "<a href='http://acm.hust.edu.cn/problem.php?id=$vid' target='_blank'>$vid</a>";
+      if ($vname=="HUST")  echo "<a href='http://acm.hust.edu.cn/problem/show/$vid' target='_blank'>$vid</a>";
+      if ($vname=="NJUPT")  echo "<a href='http://acm.njupt.edu.cn/acmhome/problemdetail.do?&method=showdetail&id=$vid' target='_blank'>$vid</a>";
       if ($vname=="UVALive")  {
           list($url)=mysql_fetch_array(mysql_query("select url from vurl where voj='UVALive' and vid='$vid'"));
           echo "<a href='$url' target='_blank'>$vid</a>";

@@ -139,6 +139,7 @@
             <a href="http://poj.openjudge.cn" target="_blank">OpenJudge</a>&nbsp;
             <a href="http://cstest.scu.edu.cn/soj/" target="_blank">SCU</a>&nbsp;
             <a href="http://acm.hust.edu.cn/" target="_blank">HUST</a>
+            <a href="http://acm.njupt.edu.cn/acmhome/" target="_blank">NJUPT</a>
           </div>
           <h2 style="margin-top:20px">Todo List</h2>
           <div class="content-wrapper ui-corner-all">

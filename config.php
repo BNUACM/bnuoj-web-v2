@@ -43,6 +43,7 @@
 '<option value="SYSU">SYSU</option>'.
 '<option value="OpenJudge">OpenJudge</option>'.
 '<option value="SCU">SCU</option>'.
-'<option value="HUST">HUST</option>';
+'<option value="HUST">HUST</option>'.
+'<option value="NJUPT">NJUPT</option>';
 
 ?>
