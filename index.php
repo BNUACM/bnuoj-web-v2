@@ -113,9 +113,7 @@
           <h1 style="padding:0">Greetings!</h1>
           <div class="content-wrapper ui-corner-all">
             Welcome to BNU Online Judge 2.0! <br />
-            If you don't like it, <a href='../contest' target='_blank'>click here</a> for the original BNUOJ. <br />
             IE 9+, Opera 9.5+, Safari 4.0+, Firefox 8+ and Chrome 12+ are <span style='color:red;font-weight:bold'>STRONGLY RECOMMENDED!</span> <br />
-            I wish all bugs are gone....<br />
             Bug report or feature requests: <a href='mailto:yichao#mail.bnu.edu.cn'>click here</a>.<br />
             Source code: <a href='http://code.google.com/p/bnuoj' target="_blank">go to Google Code</a>.
           </div>
@@ -138,18 +136,10 @@
             <a href="http://soj.me" target="_blank">SYSU</a>&nbsp;
             <a href="http://poj.openjudge.cn" target="_blank">OpenJudge</a>&nbsp;
             <a href="http://cstest.scu.edu.cn/soj/" target="_blank">SCU</a>&nbsp;
-            <a href="http://acm.hust.edu.cn/" target="_blank">HUST</a>
-            <a href="http://acm.njupt.edu.cn/acmhome/" target="_blank">NJUPT</a>
-          </div>
-          <h2 style="margin-top:20px">Todo List</h2>
-          <div class="content-wrapper ui-corner-all">
-            <ol>
-              <li>Virtual Judge on many other OJs</li>
-              <li>Class/Interactive Module</li>
-              <li>AI Battle Module</li>
-              <li>SNS link</li>
-            </ol>
-            Any suggestion is welcome!
+            <a href="http://acm.hust.edu.cn/" target="_blank">HUST</a>&nbsp;
+            <a href="http://acm.njupt.edu.cn/acmhome/" target="_blank">NJUPT</a>&nbsp;
+            <a href="http://judge.u-aizu.ac.jp/onlinejudge/" target="_blank">Aizu</a>&nbsp;
+            <a href="http://acdream.info/" target="_blank">ACdream</a>
           </div>
           <h2 style="margin-top:20px">Spin-off projects</h2>
           <div class="content-wrapper ui-corner-all">

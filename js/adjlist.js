@@ -26,7 +26,8 @@ function adjustlist(flag,name) {
         return;
     }
     if (name=="BNU") {
-        for(var i=14;i>=5;i--) sel.remove(i);
+        for(var i=14;i>=9;i--) sel.remove(i);
+        for(var i=7;i>=5;i--) sel.remove(i);
         return;
     }
     if (name=="PKU") {
@@ -95,6 +96,17 @@ function adjustlist(flag,name) {
     if (name=="SYSU") {
         for(var i=14;i>=4;i--) sel.remove(i);
         sel.remove(2);
+        return;
+    }
+    if (name=="Aizu") {
+        for(var i=14;i>=9;i--) sel.remove(i);
+        sel.remove(7);
+        sel.remove(6);
+        sel.remove(3);
+        return;
+    }
+    if (name=="ACdream") {
+        for(var i=14;i>=2;i--) sel.remove(i);
         return;
     }
 
