@@ -88,6 +88,7 @@
       if ($vname=="NJUPT")  echo "<a href='http://acm.njupt.edu.cn/acmhome/problemdetail.do?&method=showdetail&id=$vid' target='_blank'>$vid</a>";
       if ($vname=="Aizu")  echo "<a href='http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=$vid' target='_blank'>$vid</a>";
       if ($vname=="ACdream")  echo "<a href='http://acdream.info/problem?pid=$vid' target='_blank'>$vid</a>";
+      if ($vname=="CodeChef")  echo "<a href='http://www.codechef.com/problems/$vid' target='_blank'>$vid</a>";
       if ($vname=="UVALive")  {
           list($url)=mysql_fetch_array(mysql_query("select url from vurl where voj='UVALive' and vid='$vid'"));
           echo "<a href='$url' target='_blank'>$vid</a>";
