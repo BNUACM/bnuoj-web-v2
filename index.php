@@ -140,7 +140,8 @@
             <a href="http://acm.njupt.edu.cn/acmhome/" target="_blank">NJUPT</a>&nbsp;
             <a href="http://judge.u-aizu.ac.jp/onlinejudge/" target="_blank">Aizu</a>&nbsp;
             <a href="http://acdream.info/" target="_blank">ACdream</a>&nbsp;
-            <a href="http://www.codechef.com/" target="_blank">CodeChef</a>
+            <a href="http://www.codechef.com/" target="_blank">CodeChef</a>&nbsp;
+            <a href="http://acm.hrbust.edu.cn/" target="_blank">HRBUST</a>
           </div>
           <h2 style="margin-top:20px">Spin-off projects</h2>
           <div class="content-wrapper ui-corner-all">
