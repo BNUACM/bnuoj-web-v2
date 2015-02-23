@@ -28,6 +28,7 @@
     $ojoptions='<option value="BNU">BNU</option>'.
 '<option value="PKU">PKU</option>'.
 '<option value="CodeForces">CodeForces</option>'.
+'<option value="CodeForcesGym">CodeForcesGym</option>'.
 '<option value="HDU">HDU</option>'.
 '<option value="UVALive">UVALive</option>'.
 '<option value="SGU">SGU</option>'.
