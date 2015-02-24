@@ -349,7 +349,7 @@
 
     function db_get_substitle() {
         global $substitle;
-        $que="select substitle from config";
+        $que="select value from config where name = 'substitle'";
         list($substitle)=mysql_fetch_array(mysql_query($que));
     }
     function change_in($str){
