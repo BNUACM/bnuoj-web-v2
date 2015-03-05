@@ -95,7 +95,9 @@ var showpfunc=function(gcpid) {
         $("#submitdialog").dialog("destroy");
         $("#submitdialog").remove();
         $("#contest_content").html(data);
-        adjustlist("",$("#submitdialog").attr("name"));
+        $("#lang option").each(function(){
+          if( $.inArray($(this).val(), support_lang)==-1 ) $(this).remove();
+        });
         $("#submitdialog").dialog({
             autoOpen: false,
             minWidth: 500,

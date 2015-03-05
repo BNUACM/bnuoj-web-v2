@@ -421,13 +421,13 @@
 <?php
     include("footer.php");
 ?>
-<script type="text/javascript" src="js/adjlist.js?<?php echo filemtime("js/adjlist.js"); ?>" ></script>
 <script type="text/javascript">
 var ppid='<?php echo $pid; ?>';
 var pstatperpage=<?php echo $pstatuserperpage; ?>;
 var currenttime = '<?php print date("l, F j, Y H:i:s",time()); ?>' //PHP method of getting server date
 var pvid="<?php echo $vid ?>";
 var pvname="<?php echo $vname; ?>";
+var support_lang=<?= json_encode(explode(',',$ojrow['supportlang'])); ?>;
 </script>
 <script type="text/javascript" src="pagejs/problem_show.js?<?php echo filemtime("pagejs/problem_show.js"); ?>"></script>
 <script type="text/javascript" src="js/normal_probsubmit.js"></script>

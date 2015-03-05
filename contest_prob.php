@@ -320,4 +320,6 @@
         </div>
       </form>
     </div>
-
+    <script type="text/javascript">
+    var support_lang=<?= json_encode(explode(',',$ojrow['supportlang'])); ?>;
+    </script>
