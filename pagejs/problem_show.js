@@ -16,7 +16,9 @@ $("#submitdialog").dialog({
     resizable:true,
     draggable:false
 });
-adjustlist(pvid,pvname);
+$("#lang option").each(function(){
+    if( $.inArray($(this).val(), support_lang)==-1 ) $(this).remove();
+});
 $(".submitprob").click(function() {
     if ($.cookie("username")==null) $("#logindialog").dialog("open");
     else $("#submitdialog").dialog("open");

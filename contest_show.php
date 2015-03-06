@@ -198,7 +198,6 @@
 ?>
 <script type="text/javascript" src="js/sh_pascal.js"></script>
 <script type="text/javascript" src="js/sh_sml.js"></script>
-<script type="text/javascript" src="js/adjlist.js?<?php echo filemtime("js/adjlist.js"); ?>" ></script>
 <script type="text/javascript" src="js/standing_func.js"></script>
 <script type="text/javascript">
 var currenttime = '<?php print date("l, F j, Y H:i:s",time()); ?>' //PHP method of getting server date
