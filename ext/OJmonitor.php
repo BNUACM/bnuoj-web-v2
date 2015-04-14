@@ -232,7 +232,7 @@ function check_fzu() {
 
 function check_nbut() {
     global $maxwaitnum;
-    $html=file_get_html("http://ac.nbutoj.com/Problem/status.xhtml");
+    $html=file_get_html("https://ac.2333.moe/Problem/status.xhtml");
     if ($html==null||$html->find("table",0)==null) return "Down: cannot connect.";
     else {
         $num=0;
