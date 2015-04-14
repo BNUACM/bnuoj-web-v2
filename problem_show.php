@@ -80,7 +80,7 @@
       if ($vname=="SPOJ")  echo "<a href='http://www.spoj.pl/problems/$vid/' target='_blank'>$vid</a>";
       if ($vname=="UESTC")  echo "<a href='http://acm.uestc.edu.cn/problem.php?pid=$vid' target='_blank'>$vid</a>";
       if ($vname=="FZU")  echo "<a href='http://acm.fzu.edu.cn/problem.php?pid=$vid' target='_blank'>$vid</a>";
-      if ($vname=="NBUT")  echo "<a href='http://cdn.ac.nbutoj.com/Problem/view.xhtml?id=$vid' target='_blank'>$vid</a>";
+      if ($vname=="NBUT")  echo "<a href='https://ac.2333.moe/Problem/view.xhtml?id=$vid' target='_blank'>$vid</a>";
       if ($vname=="WHU")  echo "<a href='http://acm.whu.edu.cn/land/problem/detail?problem_id=$vid' target='_blank'>$vid</a>";
       if ($vname=="SYSU")  echo "<a href='http://soj.me/$vid' target='_blank'>$vid</a>";
       if ($vname=="SCU")  echo "<a href='http://cstest.scu.edu.cn/soj/problem.action?id=$vid' target='_blank'>$vid</a>";
